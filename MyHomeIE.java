@@ -31,7 +31,7 @@ public class MyHomeIE {
 		 Thread.sleep(2000);
 		 for(int i=1;i<=size;i++){
 			 driver.findElement(By.xpath("//div[contains(@data-cy,'results-card')]["+i+"]//a/h2")).click();
-			 EmailAgent(driver, "Vinayak", "test@gmail.com", "+3538999999");
+			 EmailAgent(driver, "Vinyk", "test@gmail.com", "+3538999999");
 		 }
 		 driver.quit();
 	}
